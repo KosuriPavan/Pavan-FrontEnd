@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Elements using JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 id="heading">Positioning Elements</h1>
+    <form action=" " name="form1">
+        <div id="buttons">
+            <input type="button" name="left" value="Left" onclick="pos(-1,0);" />
+            <input type="button" name="right" value="Right" onclick="pos(1,0);" />
+            <input type="button" name="up" value="Up" onclick="pos(0,-1);" />
+            <input type="button" name="down" value="Down" onclick="pos(0,1);" />
+            <input type="button" name="hide" value="Hide" onclick="hideSquare();" />
+            <input type="button" name="show" value="Show" onclick="showSquare();" />
+        </div>
+    </form>
+    <hr />
+    <div id="square">
+        <p>This square is an absolutely positioned
+            layer that you can move using the buttons above.
+        You can also change title below</p>
+        <input type="text" id="newTitle" placeholder="give new title">
+        <input type="button" id="Change"value="Change!" onclick="ChangeTitle();" />
+    </div>
+    <script src="./position.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

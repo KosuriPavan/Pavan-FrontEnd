@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Error Handling Excercise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>a simple calculator</h1>
+    <form id="simple_calc">
+        <label for="operand1">Operand-1</label>
+        <input type="number" pattern="[0-9]*" id="operand1">
+        <label for="operand2">Operand-2</label>
+        <input type="number" pattern="[0-9]*" id="operand2"><br>
+        <label for="operator-plus">plus(+)</label>
+        <input type="radio" name="operator" id="operator-plus" checked="checked">
+        <label for="operator-minus">Subsctract(-)</label>
+        <input type="radio" name="operator" id="operator-minus">
+        <label for="operator-multiply">multiply(*)</label>
+        <input type="radio" name="operator" id="operator-multiply">
+        <label for="operator-divide">divide(/)</label>
+        <input type="radio" name="operator" id="operator-divide"><br>
+
+        <button type="submit" id="validate">Validate</button>
+        <input type="text" id="result">
+    </form>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

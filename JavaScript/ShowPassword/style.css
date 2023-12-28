@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+body {
+    margin-top: 10% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#loginpage {
+    width: 400px;
+    height: 200px;
+    border: 1px solid sienna;
+    text-align: center;
+    padding: 20px;
+}
+
+#loginpage>label{
+    text-align: left !important;
+    margin-left: 50px;
+    width: 200px;
+}
+
+#loginpage>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    margin: auto;
+    margin-left: 90px;
+}
+
+#emailInputFeild,#passwordInputFeild{
+    width: 200px;
+}

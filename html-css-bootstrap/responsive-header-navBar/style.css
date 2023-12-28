@@ -1,0 +1,687 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+nav {
+    /* background-color: #EB5757; */
+    background-color: black;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+}
+
+.logo {
+    font-size: 42px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    line-height: 65px;
+    padding: 0 20px;
+    /* text-shadow: 1px 1px 2px pink; */
+    /* text-shadow: rgb(41, 3, 33) 1px 0 10px; */
+}
+
+ul {
+    float: right;
+    margin-right: 30px;
+}
+
+li {
+    font-size: 15px;
+    display: inline-block;
+    line-height: 65px;
+    margin: 0px 10px;
+}
+
+#nav-links {
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 7px 10px
+}
+
+#nav-links:hover {
+    background-color: #c74747;
+    transition: .5s;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.checkbtn {
+    float: right;
+    margin-right: 40px;
+    font-size: 20px;
+    line-height: 65px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+#hero-section {
+    width: 100vw !important;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+    background: url(https://images.freeimages.com/images/large-previews/270/travelling-without-moving-1487090.jpg)
+}
+
+#hero-section>button {
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hero-section>button:hover {
+    background-color: white;
+    color: black
+}
+
+#hero-section>h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 65px;
+    color: white;
+    font-weight: 350;
+}
+
+#hero-section>p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 350;
+}
+
+#support-section {
+    max-width: 100vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+div {
+    display: block;
+}
+
+#card-support-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#card-section-1-headering>h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #3d3c3c;
+    line-height: 40px;
+}
+
+#card-section-1-headering>h1 {
+    font-size: 40px;
+    color: #333333;
+    line-height: 90px;
+    margin-top: -20px;
+}
+
+#card-section-1-description {
+    width: 450px;
+    color: #333333;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#three-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+#support-column {
+
+    width: 351px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+#card {
+    width: 351px;
+    height: 350px;
+    background-color: #222222;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#card-text {
+    position: static;
+}
+
+#support-section-number {
+    margin-top: 10%;
+    margin-left: 10%;
+    right: auto;
+    bottom: auto;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#support-section-text {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+#support-square-image {
+    overflow: hidden;
+    float: right;
+    top: auto;
+    left: auto;
+    margin-right: -25%;
+    margin-top: 10%;
+}
+
+#support-square-image-triangle {
+    overflow: hidden;
+    float: right;
+    top: auto;
+    left: auto;
+    margin-right: -11%;
+    margin-top: 19%;
+}
+
+#support-square-image-rectangle {
+    overflow: hidden;
+    float: right;
+    top: auto;
+    left: auto;
+    margin-right: -14%;
+    margin-top: 10%;
+}
+
+#support-column>p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 100;
+    color: #333333;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+#safe-section {
+    margin: auto;
+    margin-top: 200px;
+    width: 100vw;
+    height: 600px;
+    background: url(https://images.freeimages.com/variants/k8yashGJpF6AfYeWBaSmXoni/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d);
+    background-size: cover;
+}
+
+#safe-wrapper {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-end;
+    margin-right: 60px;
+}
+
+#safe-heading {
+    width: 550px;
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: end;
+}
+
+#safe-paragraph {
+    margin-top: 15px;
+    width: 410px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 34px;
+    text-align: end;
+    height: 120px;
+}
+
+#safe-w-button {
+    width: 200px;
+    background-color: white;
+    color: #222222;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    padding: 5px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+#safe-w-button:hover {
+    background-color: #c74747;
+    color: white;
+}
+
+#product-section {
+    width: 100vw;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#product-section-text-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    left: 60px;
+    bottom: 20px;
+}
+
+#product-section-heading1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    color: rgb(56, 47, 47);
+}
+
+#product-section-heading2 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+#product-section-cards-container {
+    margin-right: 60px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#product-section-card {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Tent-Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Tent-Card>img {
+    border-radius: 30px;
+    padding: 20px;
+    width: 410px;
+}
+
+#Tent-Card>h2 {
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+#Tent-Card>h3 {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+#Tent-Card>button {
+    width: 110px;
+    height: 36px;
+    background-color: #EB5757;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Sen, sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#Tent-Card>button:hover {
+    background-color: #222222;
+}
+
+#view-all-products-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+#view-all-products-button {
+    width: 200px;
+    height: 40px;
+    background-color: #222222;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Sen, sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#view-all-products-button:hover {
+    background-color: #c74747;
+}
+
+#shop-local-text-container {
+    height: 450px;
+    width: 70%;
+    background-color: #222222;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+#shop-local-text-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+#shop-local-text-section>h1 {
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#shop-local-text-section>p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#shop-local-text-section>div {
+    font-weight: 100;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+#man-with-laptop>img {
+    width: 351px;
+    border-radius: 6px;
+}
+
+#man-with-laptop {
+    width: 351px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    top: 30px;
+    left: 90px;
+    z-index: 1;
+}
+
+#shop-local-text-section>a {
+    display: none;
+}
+
+#shop-local {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 40px;
+    flex-wrap: wrap;
+}
+
+#footer-container {
+    margin-top: 60px;
+    background-color: #222222;
+    width: 100vw;
+    height: 200px;
+}
+
+#social-links>a>i {
+    box-sizing: border-box;
+    font-size: 40px;
+    color: white;
+    padding-left: 40px;
+}
+
+#footer-container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+}
+
+#footer-container-bottom {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: center;
+    margin-right: 40px;
+    padding-top: 90px;
+}
+
+@media (max-width: 952px) {
+    .logo {
+        font-size: 30px;
+        padding-left: 40px;
+    }
+
+    li {
+        font-size: 12px;
+        display: inline-block;
+        line-height: 65px;
+        margin: 0px 2px;
+    }
+
+    #card-support-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #three-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #support-column {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+        width: 100vw;
+    }
+
+    #support-column>p {
+        width: 300px
+    }
+
+    #shop-local {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #shop-local-text-section>h1 {
+        font-size: 22px;
+    }
+
+    #shop-local-text-section>p {
+        font-size: 10px;
+    }
+
+    #shop-local-text-section>:nth-child(3),
+    #shop-local-text-section>:nth-child(4) {
+        display: none;
+    }
+
+    #man-with-laptop>img {
+        height: 70%;
+        width: 70%;
+    }
+
+    #man-with-laptop {
+        top: 0;
+        left: 60px;
+    }
+
+    #shop-local-text-container {
+        margin-top: -140px;
+    }
+
+    #shop-local-text-section>a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        font-size: 11px;
+        text-decoration: underline;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 812px) {
+    .logo {
+        font-size: 30px;
+        padding-left: 70px;
+    }
+
+    li {
+        font-size: 11px;
+        margin: 0px 2px;
+    }
+
+    #Tent-Card>img {
+        width: 70%
+    }
+
+    #social-links>a>i {
+        font-size: 25px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.6);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.6s;
+    }
+
+    li {
+        display: block;
+        font-size: 14px;
+    }
+
+    a:hover {
+        background-color: black;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    #man-with-laptop {
+        display: none;
+    }
+
+    #footer-container {
+        height: 50px;
+    }
+
+    #footer-container-bottom {
+        margin-top: -40px;
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    #social-links>a>i {
+        font-size: 15px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    #footer-container-bottom {
+        margin-top: -40px;
+        padding-top: 0px;
+        font-size: 10px;
+    }
+
+    #safe-heading {
+        width: 250px;
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    #safe-paragraph {
+        display: none;
+    }
+}

@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-roboto: Roboto;
+    --font-segoe-ui: "Segoe UI";
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-11xl: 30px;
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+    --font-size-6xl: 25px;
+    --font-size-xl: 20px;
+    --font-size-2xl: 21px;
+    --font-size-3xl: 22px;
+  
+    /* Colors */
+    --color-darkslategray-100: #4a4848;
+    --color-darkslategray-200: #464343;
+    --color-darkslategray-300: #184655;
+    --color-darkslategray-400: #373737;
+    --color-darkslategray-500: #213949;
+    --color-dimgray-100: rgba(111, 110, 110, 0.84);
+    --color-slategray: #53748c;
+    --color-white: #fff;
+  
+    /* Paddings */
+    --padding-3xs: 10px;
+  
+    /* Border radiuses */
+    --br-22xl: 41px;
+    --br-lgi: 19px;
+    --br-31xl: 50px;
+  }
+  

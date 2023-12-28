@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins&display=swap');
+
+* {
+    font-family: 'Dancing Script', cursive;
+}
+
+hr{
+    position: relative;
+    border: none;
+    height: 10px;
+    background: #ffafcc;
+}
+
+#heading {
+    color: #ffafcc;
+    text-align: center;
+}
+
+#buttons {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#buttons>input {
+
+    border: 1px solid #cdb4db;
+    filter: drop-shadow(10px 3px #cdb4db);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#square {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 200px;
+    height: 230px;
+    border: 2px solid #a2d2ff;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #bde0fe;
+    box-shadow: 4px 3px #a2d2ff;
+    text-align: center;
+}
+#newTitle{
+    border: none;
+    outline: none;
+    text-align: center;
+}
+#Change{
+    border-radius: 4px;
+    border: 1px solid #a2d2ff;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 3px 4px #cdb4db;
+}

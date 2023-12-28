@@ -1,0 +1,555 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin-top: 114px;
+}
+
+nav {
+    width: 100vw;
+    max-width: 100%;
+    height: 77px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding: 15px, 108px, 15px, 108px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-bar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 77px;
+    width: 100%;
+    padding: 10px;
+}
+
+.menu-container {
+    width: 630px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+
+.menu-container>a {
+    text-decoration: none;
+    color: gray;
+}
+
+.menu-container>button {
+    border: 2px solid #2F80ED;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 600px;
+    color: #2F80ED;
+    width: 108px;
+    height: 47px;
+    border-radius: 8px;
+    padding: 15px, 36px, 15px, 36px;
+    background-color: white !important;
+}
+
+.courses,
+.more {
+    border: none;
+    background: none;
+}
+
+.announcements {
+    font-style: italic;
+    text-align: center;
+    color: white;
+    background-color: #2F80ED;
+    height: 37px;
+    font-size: 12px;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+
+main {
+    width: 100vw;
+    max-width: 100%;
+    height: 783px;
+}
+
+.hero-section {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-left {
+    width: 711px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.hero-text>h1 {
+    font-weight: 100;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -0.7px;
+}
+
+.hero-text {
+    padding-bottom: 10px;
+}
+
+.hero-text>h2 {
+    font-size: 40px;
+    letter-spacing: -1.5%;
+    font-style: italic;
+    color: #2F80ED;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+    padding-bottom: 20px;
+}
+
+.hero-text>h2>span {
+    color: black !important;
+}
+
+.hero-text>p {
+    color: #9c9898;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    font-weight: 400;
+}
+
+.hero-left-features {
+    width: 711px;
+    height: 77px;
+    border-radius: 8px;
+    border: 1px solid #E2E2E2;
+    padding: 15px, 20px, 15px, 20px;
+    box-shadow: 0px 2px 40px 0px #00000014;
+    background-color: white;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.feature {
+    width: 140px;
+    height: 47px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.features-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.features-text>h4 {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.features-text>h5 {
+    color: #4F4F4F;
+    font-size: 9px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+}
+
+.hero-left-and-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.made-with-love-block {
+    display: flex;
+    width: 250px;
+    height: 41px;
+    border-radius: 23px;
+    margin-left: 30px;
+    margin-top: -100px;
+    box-shadow: 0px 2px 40px 0px #0000001F;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.made-with-love-block>i {
+    padding: 0px 3px;
+}
+
+.hero-arrow-container {
+    position: relative;
+    width: 129.11px;
+    height: 101.45px;
+    top: -155px;
+    left: 583px;
+    padding: 0px, 0px, 0px, 0px;
+    z-index: -11111111;
+}
+
+.hero-right {
+    width: 415px;
+    height: 496px;
+    top: 197px;
+    left: 917px;
+    box-shadow: 0px 25px 54px 0px #0000001F;
+    border-radius: 18px;
+    padding: 28px, 24px, 32px, 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-right-headings {
+    width: 291px;
+    height: 151px;
+    margin-bottom: -20px;
+}
+
+.hero-right-headings>h1 {
+    width: 291px;
+    height: 96px;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-right-headings>p {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #818D9D;
+}
+
+.inputs-name,
+.inputs-phone {
+    width: 366px;
+    height: 52px;
+    background-color: #FAFAFA;
+    display: flex;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+.inputs-name>input,
+.inputs-phone>input {
+    width: 100%;
+    border: none;
+    background-color: #FAFAFA;
+    width: 150px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.inputs-name>img,
+.inputs-phone>img {
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
+
+#name-input-box::placeholder {
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+#phone-input-box::placeholder {
+    font-size: 13px;
+}
+
+#Apply-now-for-free-button {
+    width: 367px;
+    height: 55px;
+    padding: 14px, 6px, 14px, 16px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.hero-right-inputs>p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+}
+
+.hero-right-inputs>p>a {
+    text-decoration: none;
+    color: #2F80ED;
+}
+
+.courses-we-offer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 864px;
+    width: 100vw;
+    max-width: 100%;
+    background-color: #ECF8FF;
+    margin-top: -120px;
+}
+
+.our-courses-titles>h2 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #6854ED;
+    text-transform: uppercase;
+}
+
+.our-courses-titles>h1 {
+    color: #2F80ED;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.our-courses-cards-container {
+    height: 563px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.our-courses-card {
+    width: 498px;
+    height: 500px;
+    border: 2px solid #2F80ED;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card-details-container {
+    width: 426px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-icon-and-text {
+    display: flex;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-headings-caption {
+    display: flex;
+    width: 320px;
+    height: 26px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-headings-caption-1 {
+    background-color: #E0F3FF;
+    color: #1D78B0;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 18px;
+    width: 148px;
+    height: 26px;
+    border-radius: 7px;
+    padding-top: 2px;
+}
+
+.card-headings-caption-2 {
+    background-color: #E0F3FF;
+    color: #1D78B0;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 18px;
+    width: 148px;
+    height: 26px;
+    border-radius: 7px;
+    padding-top: 2px;
+}
+
+.card-headings>div:last-child {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+.card-headings {
+    width: 320px;
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-details-desc-left {
+    display: flex;
+    width: 160px;
+    font-size: 13px;
+    justify-content: left;
+    align-items: center;
+}
+
+.card-details-desc-left>h3 {
+    font-weight: 100;
+    padding-left: 16px;
+}
+
+.card-details-desc>h3 {
+    font-weight: 200;
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 70px;
+}
+
+.card-details-desc {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+hr {
+    margin-top: 12px;
+    /* color: rgb(150, 145, 145); */
+    border-top: 1px solid rgb(156, 150, 150);
+}
+
+.final-year-h3 {
+    width: 250px;
+}
+
+.download-button {
+    width: 193px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    border: 1px solid #2F80ED;
+    color: #2F80ED;
+    font-style: italic;
+    border-radius: 7px;
+}
+
+.learn-more-button {
+    width: 193px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #2F80ED;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.card-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+.card-headings-caption-3 {
+    background-color:#FFEED8;
+    color: #965400;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 18px;
+    width: 148px;
+    height: 26px;
+    border-radius: 7px;
+    padding-top: 2px;
+}
+
+
+.card-headings-caption-4 {
+    background-color:#FFEED8;
+    color: #965400;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 18px;
+    width: 148px;
+    height: 26px;
+    border-radius: 7px;
+    padding-top: 2px;
+}

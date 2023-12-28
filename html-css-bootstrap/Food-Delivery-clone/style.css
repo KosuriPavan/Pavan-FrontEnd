@@ -1,0 +1,488 @@
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1250px;
+    height: 80px;
+    top: 0px;
+    position: fixed;
+    background-color: white;
+}
+
+.logo {
+    width: 200px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu>div {
+    padding: 10px
+}
+
+.menu>div>a {
+    text-decoration: none;
+    color: #212244;
+    font-size: 14px;
+}
+
+.search-block {
+    display: flex;
+    border: 1px solid #69697B1A;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.04);
+    background-color: white;
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-line {
+    border-left: 1px solid #69697B1A;
+    height: 25px;
+}
+
+.search-bar {
+    border: none;
+    color: #69697B;
+    text-align: center;
+    font-size: 11px;
+}
+
+.search-icon {
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.cart-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.cart-icon-div {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.sign-in-button {
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: #F94A3D;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.About-Us-Section {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 1000px;
+    height: 940px;
+}
+
+.more-than-faster-image {
+    margin-top: 50px;
+    width: 209px;
+    height: 36px;
+    border-radius: 23px;
+    display: block;
+}
+
+.heading {
+    width: 324px;
+    height: 160px;
+    top: 304px;
+    left: 254px;
+    margin-top: -40px;
+}
+
+.get-your-cuisine-container {
+    margin-top: 50px;
+    color: #212244;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+}
+
+.get-your-cuisine-container>span {
+    color: #F94A3D;
+}
+
+.food-that-is-delivered-container {
+    color: #69697B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+}
+
+.food-that-is-delivered-container-div {
+
+    width: 344px;
+    height: 96px;
+    top: 531px;
+    left: 254px;
+}
+
+.Explore-food-button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    background-color: #F94A3D;
+    color: white;
+    border-radius: 16px;
+    border: none;
+    width: 144px;
+    height: 45px;
+    display: block;
+    margin-top: 20px;
+}
+
+.delivery-image {
+    width: 656px;
+    height: 464px;
+    margin-left: 100px ;
+}
+
+.grid-2 {
+    display: flex;
+    margin: auto;
+    margin-left: 90px;
+    margin-top: -350px;
+    width: 1100px;
+    height: 330px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Why-we-are-description-div {
+    width: 280px;
+    height: 280px;
+    margin-right: 20px;
+}
+
+.Why-we-are-Best-container {
+    font-weight: 600px;
+    font-size: 38px;
+    line-height: 48px;
+    color: #212244;
+}
+
+.whole-grains-container {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #69697B;
+}
+
+.cards-13 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    align-items: center;
+    text-align: center;
+    padding-left: 40px;
+    width: 220px;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 20px;
+    border-width: 4px;
+    box-shadow: 20px 40px 90px -5px rgba(133, 15, 15, 0.08);
+}
+
+.card-image {
+    width: 140px;
+    height: 140px;
+}
+
+.card1>h2,
+.card2>h2,
+.card3>h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    width: 180px;
+    height: 180px;
+    text-align: left;
+    color: #212244;
+    padding-left: 40px;
+}
+
+.card2 {
+    align-items: center;
+    text-align: center;
+    padding-left: 40px;
+    width: 220px;
+    height: 280px;
+    border-radius: 20px;
+    border-width: 4px;
+    background-color: #fff;
+    box-shadow: 20px 40px 90px -5px rgba(133, 15, 15, 0.08);
+}
+
+.card3 {
+    align-items: center;
+    text-align: center;
+    padding-left: 40px;
+    width: 220px;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 20px;
+    border-width: 4px;
+    box-shadow: 20px 40px 90px -5px rgba(133, 15, 15, 0.08);
+}
+
+.Special-Recipes-Section{
+    width: 1220px;
+    height: 674px;
+    left: 240px;
+}
+
+.Special-Recipes-Section-heading-and-menu {
+    text-align: center;
+    align-items: center;
+}
+
+.Try-Our-Special-Recipes {
+    font-weight: 600px;
+    font-size: 36px;
+    line-height: 62px;
+    color: #212244;
+
+}
+
+.Try-Our-Special-Recipes-div {
+    height: 72px;
+}
+
+.Special-Recipes-Section-menu {
+    width: 800px;
+    display: flex;
+    padding-left: 200px;
+    justify-content: space-around;
+}
+
+
+.Special-Recipes-Section-menu>div>a {
+    text-decoration: none;
+    color: #212244;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.Fast-Food>a {
+    color: red !important;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #EAEAEA;
+    background: #999;
+    width: 1000px;
+}
+
+.cards-4-7 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    width: 1100px;
+    height: 330px;
+    top: 1681px;
+    left: 240px;
+    margin-top: 40px;
+}
+
+.card-47 {
+    margin: auto;
+    width: 220px;
+    height: 320px;
+    top: 1733px;
+    left: 240px;
+    text-align: center;
+    border-radius: 24px;
+    border: 2px solid lightgray;
+    border-top: none;
+    box-shadow: 2px 1px 200px 2px lightgray;
+}
+
+.Add-To-Cart-button {
+    border: 1.5px solid red;
+    background-color: white;
+    color: red;
+    width: 100px;
+    height: 32px;
+    top: 2065px;
+    left: 348px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.price-tag {
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+.price-tag>span {
+    font-weight: 600px;
+    font-size: 17px;
+    line-height: 16px;
+    text-align: center;
+    color: red;
+}
+
+.item-name {
+    color: #212244;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.card-47-image-div {
+    display: block;
+    text-align: center;
+}
+
+.card-47-image-1 {
+    width: 100px;
+    height: 150px;
+    top: 0px;
+
+}
+
+.card-47-image-2 {
+    width: 100px;
+    height: 150px;
+    top: 1748.49px;
+    left: 684px;
+    rotate: 1.57 deg;
+
+}
+
+.card-47-image-3 {
+    width: 100px;
+    height: 150px;
+    top: 1681px;
+    left: 1018px;
+
+}
+
+.card-47-image-4 {
+    width: 100px;
+    height: 150px;
+    top: 1729px;
+    left: 1415px;
+
+}
+
+.five-stars-div {
+    display: block;
+    text-align: center;
+}
+
+
+.Add-To-Cart-button-div {
+    display: block;
+    text-align: center;
+}
+
+.Testimonials-Section-img {
+    width: 1250px;
+    height: 600px;
+}
+
+.Call-to-Action-Effectiveness-img {
+    width: 800px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 200px;
+    
+}
+
+footer {
+    width: 1250px;
+    height: 250px;
+    top: 4286px;
+    background: linear-gradient(284.84deg, #FDF0F3 2.04%, rgba(255, 253, 242, 0.5) 50.97%, #FDEEF3 100.85%);
+}
+.social-media>a>img{
+    padding-right: 10px;
+}
+.footer-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 214px;
+    top: 4340px;
+    left: 240px;
+    border-radius: 7px;
+}
+
+.company-info {
+    margin-top: 100px;
+    width: 289px;
+    height: 214px;
+    top: 4340px;
+    left: 240px;
+    border-radius: 7px;
+}
+
+.company-info-des {
+    width: 289px;
+    height: 84px;
+    top: 4400px;
+    left: 240px;
+}
+
+.company-info-des>p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+
+.links {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    padding-right: 70px;
+}
+
+.links>div>div>a {
+    text-decoration: none;
+    color: #69697B;
+    font-size: 13px;
+    line-height: 30px;
+}

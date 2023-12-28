@@ -1,0 +1,10 @@
+[
+    {
+        "id":1,
+        "courseName":"Javascript"
+    },
+    {
+        "id":2,
+        "courseName":"HTML"
+    }
+]

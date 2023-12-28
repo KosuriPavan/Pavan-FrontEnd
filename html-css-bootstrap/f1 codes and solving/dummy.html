@@ -1,0 +1,233 @@
+<h1 style="font-size: xx-large;">Hello Prends!!!!!</h1>
+want to go back 
+<a href="./index.html"> click here</a>
+<br>
+<br>
+<br>
+TABLE OF CONTENTS<br>
+
+<a href="#chapter1">CHAPTER 1: INTRODUCTION</a> <br>
+<a href="#chapter2">CHAPTER 2 : RELATED WORK</a><br>
+<a href="#chapter3">CHAPTER 3 : MOTIVATING EXAMPLES</a><br> 
+
+<h1 id="chapter1">CHAPTER 1 : INTRODUCTION</h1><br>
+<p>1.1 Internet of Things
+The Internet of Things (IoTs) can be described as connecting everyday objects like smartphones, Internet TVs, sensors and actuators to the Internet where the devices are
+intelligently linked together enabling new forms of communication between things and
+people, and between things themselves. Building IoTs has advanced significantly in the
+last couple of years since it has added a new dimension to the world of information and
+communication technologies. According to [1], it is expected that the number of devices
+connected to the Internet will accumulate from 100.4 million in 2011 to 2.1 billion by the
+year 2021, growing at a rate of 36% per year. In the year 2011, 80% machine to machine
+(M2M) connections were made over mobile networks such as 2G and 3G and it is predicted
+that by 2021, this ratio will increase to 93% since the cost related with M2M over mobile
+networks are generally cheaper than fixed networks as illustrated in Figure 1.1 [1].
+Figure 1.1 - M2M device connections and future predictions
+2
+Now anyone, from anytime and anywhere can have connectivity for anything and it is
+expected that these connections will extend and create an entirely advanced dynamic
+network of IoTs. The development of the Internet of Things will revolutionize a number of
+sectors, from automation, transportation, energy, healthcare, financial services to
+nanotechnology.
+1.2 Home Automation Systems
+IoTs technology can also be applied to create a new concept and wide development space
+for smart homes to provide intelligence, comfort and to improve the quality of life. Thus,
+home automation becomes much more popular nowadays. In 1984, the National
+Association of Home Builders (NAHB) introduced the “smart house” concept. The
+researches and developments in this field continued over the years, but to actually automate
+a building is still a quite expensive job. This leads to the question: “If it is expensive, why
+home automation?”. First, home automation brings interoperability: the temperature can
+be set to a certain value according to certain conditions, lighting can be turned on, off or
+may be dimmed based on daylight. Second, home automation implies remote access, such
+as monitoring the house using a laptop or even the own cell phone. Third, a smart home
+automation system should have the possibility to be extended or reduced when needed.
+Therefore, it can bring expandability and also energy savings. Nowadays, one of the hottest
+topics in media is related to energy conservation. Automation systems can help the energy
+savings by, for example, turning off the electronic devices automatically when they are not
+in use. A house which is equipped with such a system offers much more comfort,
+flexibility, elegance, security, but most important, reduced maintenance costs through the
+3
+optimization of the consumption of electricity and heat. For example, some of these smart
+houses can include simple things like turning the sprinkler at some time during the day or
+detecting thieves in the middle of the night; others are more advanced and employ sensors
+for detecting the presence of a person in a room, used to adjust the ambient light, to control
+the temperature or the music volume depending on various factors. A field which
+encompasses all facilities of a smart home is “domotic”. The domotic term was coined in
+1984 by the journalist Bruno de Latour. It is a combination of technologies and services
+that improve the life in the areas of safety, comfort and technical management, resulting in
+a complete system. Things can happen automatically, as they are necessary or as they are
+scheduled by the users. However, the user does not lose the control over the house, manual
+operation being available also. Typically, domotic systems need to collect data from
+various sensors and make things such as light and temperature to automatically adjust.
+Moreover, using these sensors, many tasks can be accomplished, such as, controlling
+curtains and windows without human intervention, opening, locking or unlocking the
+garage gate, controlling the climate inside the house, providing the corresponding light in
+each room, starting
+the sprinkler when the soil is too dry and so on. However, the concept of home automation
+gets increasingly louder on the market, being a relatively new concept which draws
+attention to researchers. This leads to new technologies that can perform home automation
+functions.
+Different devices and the appliances in the home such as lightings, air condition, home
+security and entertainment systems are now being connected to the Internet so that it can
+be controlled remotely using the Smartphones or Tablets. Not only devices can be
+4
+controlled, but home environment can also be continuously monitored for maintaining
+certain desired temperature or monitoring amount of energy consumption. Hence, this will
+contribute to overall cost reduction and energy saving which is one of the main concerns
+of today.
+This paper presents a low cost and flexible home control and monitoring system using a
+Raspberry Pi, with IP connectivity for accessing and controlling devices and appliances
+using Apple Home app and an Android based smartphone app. The proposed system does
+not require a dedicated server PC with respect to similar systems and offers a flexible and
+low cost medium to monitor and control the home environment. The device utilizes control
+functionality of home appliances also through web browsers as an additional medium of
+access apart from iOS and Android based smartphones.
+The IoT includes everything from wearable fitness bands and smart home appliances to
+factory control devices, medical devices and even automobiles. Security has not been a
+high priority for these devices until now. There has been a lot of discussion regarding the
+hacking of devices and systems to obtain information and data. However, just as critical
+are cyber-attacks against the devices themselves - attacks which take over control of the
+device and cause them to operate in dangerous and insecure ways.
+Unfortunately, many of these systems – thought to be safe – are still vulnerable. For
+instance, even though Industrial Automation and Critical Infrastructure devices are usually
+installed inside the secure perimeter of an enterprise network, that perimeter is porous and
+can be easily penetrated or disabled. On top of that, insider threats, whether malicious or
+accidental, make up 70% of cyber-attacks, and they usually originate inside that perimeter.
+It is necessary to secure the Things themselves. Security challenges in IoT include privacy,
+5
+authentication and secure end-to-end connection. In addition, with the presence of multiple
+smart home standards currently used in the market, any security scheme needs to consider
+inter-compatibility among the multiple standards.
+Figure 1.2 - The System Setup
+Figure 1.2 shows the setup of the proposed system, consisting of several IoT devices
+connected via the Home Wi-Fi network. The users can access and control the system using
+a mobile device by accessing the home Wi-Fi. The network is responsible for
+authenticating and monitoring the communication between devices in the system.
+Each IoT device can only communicate with the home network. Based on user preferences,
+the information from one device can also trigger the network to send a message to another
+device in order to response with appropriate action.
+The subsequent sections are divided in the following ways. ‘Introduction’ is followed by
+‘Related Work’ section which gives an account of some similar projects achieving similar
+results but the design and implementation are carried out in different ways. Next section is
+‘Motivating Examples’ which gives a brief account of different works that motivated me
+6
+to purse this project. Next section describes some ‘Challenges’ that I faced during the
+design and implementation of this project. Then the section, ‘Solution and Implementation’
+gives a detailed account of both the hardware and software implementation of this project.
+Next sections gives a brief review of the ‘Results’ achieved after the project
+implementation. And lastly, it is followed by ‘Conclusion and Future Work’.
+7</p>>
+<hr>
+
+<h1 id="chapter2">CHAPTER 2 : RELATED WORK</h1><br>
+<p>Home automation or Smart Homes (also known as domotic) can be described as
+introduction of technology within the home environment to provide convenience, comfort,
+security and energy efficiency to its occupant. Adding intelligence to home environment
+can provide increased quality of life for the elderly and disabled people who might
+otherwise require caregivers or institutional care. There has been a significant increase in
+home automation in recent years due to higher affordability and advancement in Smart
+phones and tablets which allows vast connectivity. With the introduction of the Internet of
+Things, the research and implementation of home automation are getting more popular.
+Much of the research attention has been given in academia. Various wireless technologies
+that can support some form of remote data transfer, sensing and control such as Bluetooth,
+Wi-Fi, RFID, and cellular networks have been utilized to embed various levels of
+intelligence in the home. The studies have presented Bluetooth based home automation
+systems using Android Smart phones without the Internet controllability. The devices are
+physically connected to a Bluetooth sub-controller which is then accessed and controlled
+by the Smart phone using built-in Bluetooth connectivity. However, due to limited range
+of operation (maximum up to 100 m) the system is unable to cope with mobility and can
+only be controlled within the vicinity. Researchers have also attempted to provide network
+interoperability and remote access to control devices and appliances at home using home
+gateways. Researches introduced a Wi-Fi based home control system using PC based web
+server which manages the connected home devices. Similar designs have also been
+presented in where a dedicated web server, database and a web page have been developed
+8
+to interconnect and manage the devices with the Internet. The disadvantages of these
+systems are twofold. Firstly, a high end personal computer has been utilized which not only
+increases the cost of installation but also increases the energy consumption. Secondly,
+development and hosting of web pages which also add to the cost. A GSM based
+communication and control for home appliances has also been presented where different
+AT commands are sent to the Home Mobile for controlling different appliances. The
+drawback of this system is that users are not provided with a graphical user interface and
+users have to remember different AT commands to control the connected devices.
+Researches proposed mobile IP based architecture and its potential applications in Smart
+homes security and automation without any actual deployment and testing. Lately few
+researchers have also presented use of Web services, Simple Object Access Protocol
+(SOAP) and Representational State Transfer (REST) as an interoperable application layer
+to remotely access home automation systems. Researches introduced a smart home
+management scheme over the Ethernet network based on XML SOAP standards. The
+drawback of using SOAP based Web a service is that it is complex and adds overhead to
+the client and server when parsing the message, resulting in slower operation and higher
+Bandwidth. REST has been presented as a Web-based interaction for controlling household
+appliances using Web techniques such as HTTP caching and push messaging. Also, a Webbased graphical user interface has been developed to manage the home devices. Home
+automation using Cloud computing has also been proposed where users were able to
+control various lights and appliances within their home. The above-mentioned systems
+have made significant contributions to the design and development of home automation
+systems. However, the existing works were mainly focused on developing a single type of
+9
+accessing functionality for their home automation devices rather than combining different
+kinds of ways through which the device can be accessed and controlled depending upon
+the different kinds of mobile devices users in the same household may own.
+10</p>>
+<hr>
+<h1 id="chapter3">CHAPTER 3 : MOTIVATING EXAMPLES</h1>><br>
+<p>I was motivated to pursue this project due to numerous reasons. Although automation is
+not a new idea in our modern life. Large businesses and wealthy homeowners have already
+implemented this technology for years now. With this project, I wanted to see this concept
+getting more accessible to very home owner, due to cheaper cost, easier to setup and used
+modular concept and also higher internet penetration rate. The system needs to be simple
+enough to be used by one and all. With this project, I hoped that it will provide a better
+quality of life, while reducing the electricity wastage by giving user the power to control,
+conserve and react according to user needs.
+On researching, I found several similar projects that motivated me further. [2] describes a
+system that provides a wireless remote-control solution for controlling the lights and fan
+via Wi-Fi capable handheld devices such as Smartphone, adding convenience and also
+reducing electricity wastage. While this concept is not new, all of this only appeals to tech
+savvy user, due to the complexity, feature and price, which are not important for
+this project target user. In this project, appliances such as light and fan that connected to
+the Main Control Unit (MCU) still can be controlled remotely from a computer screen or
+a smart phone. This is performed by using a very simplistic Graphical User Interface
+(Graphical User Interface, GUI), which is easily used and understandable for the target
+user. This system can also be equipped with the monitoring function by including a web
+camera to the MCU for a live video feed, or from wearable electronics wore by the user
+which for example include heartbeat sensor.
+11
+[5] presents a low cost secure cell phone based, flexible home automation system.
+Appliances at home are connected to the Arduino BT board. The communication between
+the cell phone and the Arduino BT board is wireless. Additional devices can be connected
+into the system with little modifications. Since the cell phone script is written in Python, it
+is portable and can run on any Symbian Operating System platform. The system is secured
+for access from any user or intruder. The users are expected to acquire pairing password
+for the Arduino BT and the cell phone to access the home appliances. This adds a protection
+from unauthorized users. This system can be used as a test bed for any appliances that
+requires on-off switching applications without any internet connection.
+[24] project integrates locally and remotely controlled systems with the use of Cloud data
+network. This allows the system to operate without the dependence of a mobile provider,
+allows the system to be used with various mobile phone platforms, and allows the system
+to operate locally when phone or computer access is not available. Cloud networking and
+data infrastructure allow individuals to monitor, manage, and control their personal data
+points through the Internet. Each data stream is given a unique feed identification number
+to differentiate itself from all other data Streams on the Network. The home control is
+achieved via a hand held remote which uses Zigbee wireless communication to the home
+controller which is integrated with the cloud network via an internet connection.
+[13] put forwards the design of home automation and security system using Android ADK.
+The design is based on a standalone embedded system board Android ADK(Accessory
+Development Kit) at home. Home appliances are connected to the ADK and
+communication is established between the ADK and Android mobile device or tablet. The
+12
+home appliances are connected to the input/output ports of the embedded system board and
+their status is passed to the ADK. It presents an authentication to the system for authorized
+person to access home appliances. The device with low cost and scalable to less
+modification to the core is much important. It presents the design and implementation of
+automation system that can monitor and control home appliances via android phone or
+tablet.
+Although all these projects motivated me to pursue my idea, I still felt need for a better
+design and implementation. I wanted to design a home automation system which had all
+the specifications of above mentioned projects like low cost, ease of use, low energy
+consumption but I wanted the user experience to be similar for all kinds of device users.
+Hence, I pursued the idea of a device that has three ways of communicating with home
+appliances. First is through Apple Home app, which runs on iOS 10 or later, and lets you
+securely control smart home devices or any home appliance as long as the device is added
+in the Apple HomeKit as an accessory. The second way is through the means of an Android
+app. And lastly, the application is not only limited to smartphones but also can be used by
+feature phones through web browser. </p>

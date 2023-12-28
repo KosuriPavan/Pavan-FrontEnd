@@ -1,0 +1,31 @@
+*{
+ margin:auto;
+ padding: 0;
+ width: 100vw;
+ max-width: 100%;   
+}
+
+#add-to-bag-button{
+    background-color: lightgreen;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
+
+#remove-from-bag-button{
+    height: 40px;
+    width: 150px;
+}
+
+#add-2-to-bag{
+    background-color: lightgreen;
+    border: none;
+    height: 40px;
+    width: 150px;
+}
+
+button{
+    margin: 10px !important;
+    border-radius: 10px !important;
+}
+

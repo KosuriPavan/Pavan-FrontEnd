@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class1</title>
+</head>
+<style>
+    .solid {
+        border-style: dotted;
+        border-width: 10px;
+        border-color: blueviolet;
+    }
+
+    #head1 {
+        color: skyblue;
+        background-color: antiquewhite;
+    }
+</style>
+
+<body>
+    <div>
+        <h1 class=solid> hello -h1 tag used with class as attribute with class-name solid</h1>
+        <h2>Welcome To <br>GeeksforGeeks</h2>
+        <p>GeeksforGeeks is a
+            <span style="color:red;font-weight:bolder;font-size:50px;">
+                computer science</span> portal for
+            <span style="background-color: lightgreen;">geeks</span>.
+        </p>
+        <hr>
+        this is normal text without any tag<br>
+        <b> this tag is used to bold the text </b><br>
+        <big style="background-color:lightgreen;">this tag is called big tag</big><br>
+        <u> this tag is used to underline the text written in it</u><br>
+        <small>this tag is called small tag</small><br>
+        <i> this tag is used to make the text italic </i><br>
+        <s> this tag is used to make a straight line through text </s><br>
+
+        <!-- there are two types of tags
+        container tags: have opening and closing tags
+        non container tags: have only one tag
+    
+        similarly there are other two types of styling tags
+        semantic and non- semantic
+        Strong and em are semantic
+        b and i are non-semantic
+        though both yeilds same output-->
+        <strong>this tag is used to bold the text same as b tag</strong><br>
+        <em>this tag is used to make the text italic as i tag</em><br>
+        <hr>
+        <h1 id="head1">h1 tag used with id = head1</h1>
+        <!--Common Attributes include:
+        class - assigns one or more class names to an element for styling or javascript
+        style - defines inline CSS styles to apply to an element
+        id - specifies a unique identifier for an element
+        src - specifies the source url of media elements like images,audio or video
+        href - specifies the url destination of hyperlinks
+        alt - provides alternative text for images or a fallback content for non-image elements
+        disabled - disables user interaction with an element
+        value - sets the initial value of form elements like input fields or checkboxes
+        data-* - custom attributes used to store additional data associated with an element
+        -->
+
+        <!--attributes can me made by us by simply writing the name of attribute prefix as "data-"    
+        like data-pavan="something"    -->
+        <h3 data-pavan="own attribute">to show own attribute named data-pavan</h3>
+        <img src="D:\\gear 5.avif" alt="image location is incorrect-luffy gear 5" title="Luffy gear5" height="200px"
+            width="300px">
+        <!-- I used title css styling which says the name or whatever info 
+        we want to appear as popup when hovered on the image-->
+        <hr>
+        <p>
+            <!-- we can easily using all the inline CSS tags while using paragraph tag, like in middle 
+        of paragragh there is word we need to highlight or make it italic/bold-->
+            Hi here I'm appling inline css in paragraph tag on
+            <em>this word</em> and <b style="background-color: lime;">this word too</b>
+        </p>
+        <hr>
+        Want to know who is luffy
+        <br>
+        open in same tab
+        <a href="https://onepiece.fandom.com/wiki/Monkey_D._Luffy" style="color: red;">click here</a>
+        <!-- Observe when clicked on above link, the page itself redirected to the link and
+         opened in the same tab-->
+        <!-- Where as in below case, the page opened in new tab. Using <taget="_blank" we can do>-->
+        <br>
+        open in new tab
+        <a href="https://onepiece.fandom.com/wiki/Monkey_D._Luffy" style="color:blue;" target="_blank">click here</a>
+        <br>
+        <!-- well well we redirected to new link which is on internet, what if 
+        what if you want to redirected to another html file when clicked.
+        To demonstrate it I'm creating new html file named dummy
+        here in html we can link those html files as href="./(followed by html file name)"-->
+        linking our own made html file
+        <a href="./dummy.html">Dummy HTML</a><br>
+        <!-- nice nice, now If you had observed in some websites when clicked on hyperlinks 
+        it will not open new page, unless it redirects to some part of the own parent page.
+        Like if you observed on education pages, there will be bullet points like
+        Introduction
+        Chapter 1
+        Chapter 2 etc
+        but when clicked on any of the link the page will automatically scrolls down to the 
+        introduction matter 
+        do you remember those pages?
+        now we are doing exactly the same
+        This means the previous links are external pages hence we call them 
+        external referencing/linking
+        But now we are doing internal referencing/linking
+        To understand better i will use this dummy html file we created and add theory matter-->
+        For understanding internal referencing click below and click on chapter 3<br>
+        <a href="./dummy.html" target="_blank">Dummy HTML</a><br>
+        <!-- go to dummy html file to see internal referencing code-->
+
+        <!-- now we see many websites where we click on image and it redirects
+        just as wee spoke we can add any css tags inside then add img tag-->
+        <br><br>
+        Want to know about cherry blossoms click the image<br>
+        <a href="https://en.wikipedia.org/wiki/Cherry_blossom" target="_blank">
+            <img src="D:\\cherryblossoms.jpg" alt="cherryblossoms link" title="click to know more" height="200px"
+                width="300px">
+        </a>
+    </div>
+    <!-- lets learn div and span tags-->
+    Below are differences between div and span tags<br>
+    <!-- div tag usually occupies whole line thats means here below eventhough the matter
+        is small the styling is applied to whole line -->
+    <div style="background-color: yellow;"> div1 </div>
+    <div style="background-color: blue;"> div2 </div>
+    <div style="background-color: brown;"> div3 </div>
+    <br>
+    <!-- whereas span takes only the space of the matter for styling -->
+    <span style="background-color: yellow;"> span1 </span>
+    <span style="background-color: blue;"> span2 </span>
+    <span style="background-color: brown;"> span3 </span>
+    <!-- there are some limitations to span tag. for suppose if we given height styling to div tag
+        the background color will have the height we mention whereas span can't do that 
+        height width of styling can't be done in span tag
+        below is example -->
+    <br><br>
+    <div style="background-color: blue; height: 200px; width: 200px;"> div tag with heigth styling bg</div><br>
+    <span style="background-color: red; height: 200px; width: 200px;"> span tag with same as height styling tag</span>
+    <!-- observed diff ! span neither takes height neither takes width -->>
+    
+    <hr>
+    
+</body>
+
+</html>
