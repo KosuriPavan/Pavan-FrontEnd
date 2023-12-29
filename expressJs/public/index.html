@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form to Excel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main_container">
+      <form
+        action="/submit-form"
+        autocomplete="off"
+        method="post"
+        name="data-sheet"
+      >
+        <h3><center>Contact Form</center></h3>
+        <input type="text" placeholder="Enter your name" name="name" />
+        <input type="email" placeholder="Enter your email" name="email" />
+        <input type="text" placeholder="Enter your number" name="number" />
+        <select name="degree">
+          <option value="not selected">What's your Degree</option>
+          <option value="Btech">Btech</option>
+          <option value="Bsc">Bsc</option>
+          <option value="MBA">MBA</option>
+          <option value="MSC">MSC</option>
+        </select>
+        <textarea
+          name="message"
+          id="textArea"
+          rows="4"
+          placeholder="How can I help you?"
+        ></textarea>
+        <label style="margin-left: 6px"><b>Gender</b></label>
+        <div><input type="radio" name="gender" value="Male" />Male</div>
+        <div><input type="radio" name="gender" value="Female" />Female</div>
+        <button type="submit" id="sendButton" name="submit">Send</button>
+        <button type="reset" id="resetButton">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>
